@@ -23,5 +23,5 @@ p_one = 1 - (1 - p1) * (1 - p2) * (1 - p3)
 print(f"хотя бы 1 деталь: {p_one:.3}")
 
 # Вероятность, что выйдет из строя от 1 до 2 деталей
-p_one_or_two = p_one + p_two
+p_one_or_two = p_one - p_all
 print(f"от 1 до 2 деталей: {p_one_or_two:.3}")
